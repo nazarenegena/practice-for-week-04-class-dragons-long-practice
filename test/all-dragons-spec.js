@@ -1,6 +1,7 @@
 const path = require("path");
 const chai = require("chai");
 const expect = chai.expect;
+
 const sinon = require("sinon");
 const { fileContainsClass } = require("./helpers");
 
@@ -119,3 +120,4 @@ describe("The all-dragons.js module file", () => {
     });
   });
 });
+
